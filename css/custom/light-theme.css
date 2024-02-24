@@ -1,0 +1,62 @@
+.app-menu.navbar-menu {
+    background: #fff;
+    border-right: 1px solid #B6B6B6;
+}
+.page-title-box {
+    background: #F7F7F7;
+    border-bottom: unset;
+}
+.navbar-brand-box, .navbar-nav {
+    background-color: #fff;
+}
+.navbar-menu .navbar-nav .nav-link {
+    color: #262626;
+}
+.navbar-menu .navbar-nav .nav-link:hover, .navbar-menu .navbar-nav .nav-link.active {
+    background-color: #EDEDED !important;
+    color: #262626 !important;
+}
+.navbar-menu .navbar-nav .nav-link:hover .icon-dual, .navbar-menu .navbar-nav .nav-link.active .icon-dual {
+    color: #262626 !important;
+}
+.navbar-menu .navbar-nav .nav-link[data-bs-toggle=collapse][aria-expanded=true] {
+    color: #262626 !important;
+    font-weight: 600;
+}
+.navbar-menu .navbar-nav .nav-link[data-bs-toggle=collapse][aria-expanded=true] .icon-dual {
+    color: #262626 !important;
+    fill: #fff;
+}
+.sidebar-background {
+    background: #fff;
+    opacity: unset;
+}
+
+body{
+    background-color: #F7F7F7 !important;
+}
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.1);
+    border: none;
+}
+
+.card-header {
+    border-bottom: unset !important;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 10px calc(1.5rem * .5);
+    height: 40px;
+}
+
+.nav-tabs-custom .nav-item .nav-link {
+    color: rgb(101, 111, 125) !important;
+    font-weight: 500 !important;
+}
+
+.nav-tabs-custom .nav-item .nav-link.active {
+    color: rgb(42, 46, 52) !important;
+    font-weight: 600 !important;
+}

@@ -1,0 +1,24 @@
+.calendar-preview{
+
+}
+.calendar-preview .fc-daygrid-day-frame.fc-scrollgrid-sync-inner{
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar-preview .fc-daygrid-day-frame.fc-scrollgrid-sync-inner .fc-daygrid-day-top .fc-daygrid-day-number{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.calendar-preview td .fc-daygrid-day-events{
+    display: none;
+}
+.calendar-preview td.bg-primary a{
+    color: #ffffff !important;
+}
+.px-1-2 {
+    padding-right: 0.1rem!important;
+    padding-left: .1rem!important;
+}
